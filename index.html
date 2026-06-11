@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kabir - Full Stack Web Dev</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        rel="stylesheet"
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+    <div class="comic-bg"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            COMIC<span>DEV</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-left">
+
+            <div class="speech-bubble">
+                Hello, I'm
+            </div>
+
+            <h1>Kabir</h1>
+
+            <h2>Full Stack Web Developer</h2>
+
+            <p>
+                Building modern websites, interactive experiences
+                and creative digital products with modern UI.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="comic-btn">
+                    View Projects
+                </a>
+
+                <a href="#contact" class="comic-btn secondary">
+                    Hire Me
+                </a>
+            </div>
+
+            <div class="socials">
+
+                <a href="https://github.com/Kabir00422">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://in.linkedin.com/in/kabir-rahaman-07839340a">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="https://x.com/kabir00422">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+
+                <a href="https://www.instagram.com/kabir.exe.9?igsh=ZDQ3Nm*wdHNzcGVx">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-right">
+
+            <div class="profile-card">
+
+                <img src="/images/pfp.png" alt="Profile">
+
+                <div class="comic-tag">
+                    WEB DEV
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+
+        <h2 class="section-title">About Me</h2>
+
+        <div class="card">
+            <p>
+                I'm an aspiring full stack web developer passionate about
+                building modern websites with clean code and
+                creative user experiences.
+                I enjoy transforming ideas into responsive,
+                interactive and visually engaging products.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-grid" >
+            <div class="skill comic-btn2">HTML</div>
+            <div class="skill comic-btn2">CSS</div>
+            <div class="skill comic-btn2">JavaScript</div>
+            <div class="skill comic-btn2">React.js</div>
+            <div class="skill comic-btn2">Tailwind.css</div>
+            <div class="skill comic-btn2">Python</div>
+            <div class="skill comic-btn2">Node.js</div>
+            <div class="skill comic-btn2">Express.js</div>
+            <div class="skill comic-btn2">MongoDB</div>
+            <div class="skill comic-btn2">PHP</div>
+            <div class="skill comic-btn2">Rust</div>
+            <div class="skill comic-btn2">Git & GitHub</div>
+            <div class="skill comic-btn2">REST API</div>
+            <div class="skill comic-btn2">Figma</div>
+        </div>
+
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+
+        <h2 class="section-title">Projects</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <h3>ComicVerse</h3>
+
+                <p>
+                    A comic reading platform with smooth UI and
+                    episode navigation.
+                </p>
+
+                <a href="https://comicversekabir.vercel.app/" class="comic-btn">
+                    Live Demo
+                </a>
+            </div>
+
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+
+                <p>
+                    Personal portfolio showcasing projects and skills.
+                </p>
+
+                <a href="#" class="comic-btn">
+                    Live Demo
+                </a>
+            </div>
+
+            <div class="project-card">
+                <h3>Future Project</h3>
+
+                <p>
+                    Thinking something creative and expecting a unique stuff
+                </p>
+
+                <a href="#" class="comic-btn">
+                    Live Demo
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+
+        <h2 class="section-title">Contact Me</h2>
+
+        <form id="contact-form">
+
+            <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+            >
+
+            <textarea
+                name="message"
+                placeholder="Your Message Here"
+                required>
+            </textarea>
+
+            <button type="submit" class="comic-btn">
+                Send Message
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            © 2026 Kabir &#124 Made With Love ❤️
+        </p>
+    </footer>
+
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
