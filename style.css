@@ -37,12 +37,15 @@ z-index:1000;
 }
 
 .logo{
-font-family:'cursive';
-font-size:2rem;
+    font-family:'Bangers', cursive;
+    font-size:4rem;
+    letter-spacing:2px;
+    text-shadow:4px 4px #ff4d4d;
 }
 
 .logo span{
-color:#ff5f00;
+color:#ff4d4d;
+text-shadow:4px 4px #000000;
 }
 
 .nav-links{
