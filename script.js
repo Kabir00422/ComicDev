@@ -1,4 +1,4 @@
-// Apni Public Key se initialize karo
+// Public Key se initialize 
 emailjs.init("ibZcUIQ5BKx0-J-Wt");
 
 const form = document.getElementById("contact-form");
@@ -6,7 +6,7 @@ const form = document.getElementById("contact-form");
 form.addEventListener("submit", function(e) {
     e.preventDefault();
 
-    // Form se saari values nikal rahe hain
+    // extracting values from Form
     const templateParams = {
         name: form.elements["name"].value,
         email: form.elements["email"].value,
