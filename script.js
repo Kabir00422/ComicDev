@@ -16,7 +16,7 @@ form.addEventListener("submit", function(e) {
 
     // sendForm ki jagah send use kar rahe hain taaki data perfect format me jaye
     emailjs.send(
-        "service_oww339d", // Service ID
+        "service_m440qej", // Service ID
         "template_zj7wfmw", // Template ID
         templateParams
     )
